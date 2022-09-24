@@ -1,0 +1,39 @@
+/* ==UserStyle==
+@name           Catppuccin Discord Theme
+@namespace      Hotsno's styles
+@author         hotsno
+@description    Catppuccin with some customizations
+@version        1.0.0
+@license        NO-REDISTRIBUTION
+@preprocessor   uso
+==/UserStyle== */
+
+@import url(https://catppuccin.github.io/discord/main.css);
+
+.defaultColor-HXu-5n {
+    color: #FFF
+}
+
+.container-x8Y1ix:hover {
+    background-color: #EEE
+}
+
+.contents-3ca1mk {
+    color: #EEE
+}
+
+.tutorialContainer-2jwoiB+.listItem-3SmSlK {
+    display: none;
+}
+
+.repliedMessage-3Z6XBG:before{
+  border-color: #999;
+}
+
+.mentioned-Tre-dv {
+    background-color: rgba(36, 120, 255, 0.1)
+}
+
+.mentioned-Tre-dv:hover {
+    background-color: rgba(36, 120, 255, 0.15) !important;
+}
