@@ -8,6 +8,7 @@
 ### Discord
 - [Custom NotAnotherAnimeTheme](https://github.com/hotsno/stylus-styles/raw/main/hotsno-discord-web-theme.user.css)
 - [Midnight Theme](https://github.com/hotsno/stylus-styles/raw/main/midnight-discord-web-theme.user.css)
+- [Custom Catppuccin](https://github.com/hotsno/stylus-styles/raw/main/catppuccin-discord.user.css)
 ### Other
 - [MangaSee](https://github.com/hotsno/stylus-styles/raw/main/mangasee-customizations.user.css)
 - [Stylus Extension](https://raw.githubusercontent.com/33kk/uso-archive/flomaster/data/usercss/146675.user.css)
