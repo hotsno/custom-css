@@ -8,7 +8,7 @@
 @preprocessor   uso
 ==/UserStyle== */
 
-@import url(https://catppuccin.github.io/discord/main.css);
+@import url(https://hotsno.github.io/stylus-styles/catppuccin-base.css);
 
 .defaultColor-HXu-5n {
     color: #FFF
@@ -44,4 +44,16 @@
 
 .rolePill-2IJ1vo {
     border-color: #555;
+}
+
+.username-h_Y3Us, .username-u-ebrn {
+    color: #DDD !important;
+}
+
+@media screen and (max-width: 1000px) {
+    .chatContent-3KubbW {padding-right:65px;}
+    .membersWrap-3NUR2t {min-width: unset;position: absolute; right:0;}
+    .members-3WRCEx {max-width: 65px;min-width: 65px;transition: 0.3s ease;}
+    .members-3WRCEx:hover {max-width: 240px;min-width: 240px;}
+    div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
 }
