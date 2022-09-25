@@ -9,5 +9,5 @@
 ==/UserStyle== */
 
 @-moz-document domain("discord.com") {
-  @import url(https://hotsno.github.io/stylus-styles/catppuccin-discord-modifications.css)
+  @import url(https://hotsno.github.io/stylus-styles/catppuccin-discord-modifications.css);
 }
