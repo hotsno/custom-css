@@ -43,12 +43,12 @@
 /* Collapsable users */
 @media screen and (max-width: 1000px) {
     .chatContent-3KubbW {
-        padding-right:65px;
+        padding-right: 65px;
     }
     .membersWrap-3NUR2t {
         min-width: unset;
         position: absolute;
-        right:0;
+        right: 0;
     }
     .members-3WRCEx {
         max-width: 65px;
@@ -66,18 +66,24 @@
 
 /* Collapsable channels */
 @media screen and (max-width: 800px) {
+    .chatContent-3KubbW {
+        padding-left: 48px;
+    }
     .sidebar-1tnWFu {
       width: 48px;
-      transition: 0.6s ease;
-      /* position: fixed; */
+      transition: 0.3s ease;
+      position: fixed;
       height: calc(100% - 47.988px);
       z-index: 1;
       bottom: 0px;
     }
     .wrapper-1_HaEi:hover+.base-2jDfDU>.content-1SgpWY>.sidebar-1tnWFu {
-        width:240px;
+        width: 240px;
     }
     .sidebar-1tnWFu:hover {
-        width:240px;
+        width: 240px;
+    }
+    .iconItem-1EjiK0 {
+        display: none !important;
     }
 }
