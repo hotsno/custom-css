@@ -92,6 +92,17 @@
         display: none !important;
     }
     .nameTag-sc-gpq {
-        padding-left: 22px !important;
+        padding-left: 15px !important;
     }
+    .avatar-1EWyVD {
+        padding-left: 7px
+    }
+}
+
+/* Hide server banner and boost status */
+.flowerStar-2tNFCR, .flowerStarContainer-1QeD-L, .animatedContainer-2laTjx,  .content-2a4AW9 [style="height: 84px;"], .bannerImage-ubW8K-, .animatedBannerHoverLayer-129r1v, .container-2giAcK {
+    display: none;
+}
+.header-3OsQeK {
+    box-shadow: var(--elevation-low) !important;
 }
