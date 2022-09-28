@@ -1,6 +1,6 @@
-# Stylus Styles
+# Custom CSS
 
-## Instructions
+## Stylus Instructions
 1) Get Stylus for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 2) Click the link for a style below and press "Install"
 
