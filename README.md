@@ -7,11 +7,11 @@
 </details>
 
 ## Discord
-- [Catppuccin](https://github.com/hotsno/stylus-styles/raw/main/catppuccin-discord.user.css)
+- [Catppuccin](https://github.com/hotsno/custom-css/raw/main/catppuccin-discord.user.css)
 ## Other
-- [MangaSee](https://github.com/hotsno/stylus-styles/raw/main/mangasee-customizations.user.css)
+- [MangaSee](https://github.com/hotsno/custom-css/raw/main/mangasee-customizations.user.css)
 - [Stylus Extension](https://raw.githubusercontent.com/33kk/uso-archive/flomaster/data/usercss/146675.user.css)
-- [Crunchyroll Beta](https://raw.githubusercontent.com/hotsno/stylus-styles/main/crunchyroll-customizations.user.css)
+- [Crunchyroll Beta](https://raw.githubusercontent.com/hotsno/custom-css/main/crunchyroll-customizations.user.css)
 
 # CSS
 <details>
@@ -21,5 +21,5 @@
 </details>
 
 ## Discord
-- [Catppuccin](https://hotsno.github.io/stylus-styles/catppuccin-discord-base.css)
-- [Catppuccin w/ customizations](https://hotsno.github.io/stylus-styles/catppuccin-discord-modifications.css)
+- [Catppuccin](https://hotsno.github.io/custom-css/catppuccin-discord-base.css)
+- [Catppuccin w/ customizations](https://hotsno.github.io/custom-css/catppuccin-discord-modifications.css)
