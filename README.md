@@ -22,4 +22,4 @@
 
 ## Discord
 - [Catppuccin](https://hotsno.github.io/custom-css/catppuccin-discord-base.css)
-- [Catppuccin w/ customizations](https://hotsno.github.io/custom-css/catppuccin-discord-modifications.css)
+- [Modifications](https://hotsno.github.io/custom-css/discord-modifications.css)
