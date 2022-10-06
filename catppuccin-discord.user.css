@@ -1,13 +1,14 @@
 /* ==UserStyle==
 @name           Catppuccin Discord Theme
-@namespace      Hotsno's styles
+@namespace      hotsno's styles
 @author         hotsno
 @description    Catppuccin with some customizations
-@version        1.0.0
+@version        1.0.1
 @license        NO-REDISTRIBUTION
 @preprocessor   uso
 ==/UserStyle== */
 
 @-moz-document domain("discord.com") {
-  @import url(https://hotsno.github.io/custom-css/catppuccin-discord-modifications.css);
+  @import url(https://hotsno.github.io/custom-css/catppuccin-discord-base.css);
+  @import url(https://hotsno.github.io/custom-css/discord-modifications.css);
 }
