@@ -86,7 +86,10 @@
 /* Hide some top right icons */
 .iconWrapper-2awDjA[aria-label="Help"],
 .iconWrapper-2awDjA[aria-label="Notification Settings"],
-.iconWrapper-2awDjA[aria-label="Hide Member List"] {
+.iconWrapper-2awDjA[aria-label="Hide Member List"],
+.iconWrapper-2awDjA[aria-label="Add Friends to DM"],
+.iconWrapper-2awDjA[aria-label="Start Video Call"],
+.iconWrapper-2awDjA[aria-label="Start Voice Call"] {
     display: none;
 }
 
