@@ -168,3 +168,8 @@
 .search-2Mwzzq:not(.open-1F8u2c):hover .icon-18rqoe {
     color: var(--text-muted);
 }
+
+/* Fix image carousel background */
+.carouselModal-1eUFoq.zoomedCarouselModalRoot-beLNhM.root-g14mjS.fullscreenOnMobile-ixj0e3 {
+    background-color: transparent !important;
+}
