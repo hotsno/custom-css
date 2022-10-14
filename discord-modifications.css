@@ -173,3 +173,8 @@
 .carouselModal-1eUFoq.zoomedCarouselModalRoot-beLNhM.root-g14mjS.fullscreenOnMobile-ixj0e3 {
     background-color: transparent !important;
 }
+
+/* Transparent background for transparency in images */
+.modal-3Crloo.root-g14mjS {
+    background-color: transparent !important;
+}
