@@ -184,7 +184,3 @@
     mask: unset !important;
     border-radius: 50%!important;
 }
-.avatar-6qzftW > .avatarHint-k7pYop > foreignObject {
-    mask: unset;
-    clip-path: circle(40px at center);
-}
