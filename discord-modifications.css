@@ -175,3 +175,16 @@
 .modal-3Crloo.root-g14mjS {
     background-color: transparent !important;
 }
+
+/* Hide user status in server list menu */
+.avatar-6qzftW > .wrapper-1VLyxH > svg > rect, .status-12NUUC, .mask-1FEkla.svg-2azL_l > svg {
+    display: none;
+}
+.avatar-6qzftW > .wrapper-1VLyxH > svg > foreignObject{
+    mask: unset !important;
+    border-radius: 50%!important;
+}
+.avatar-6qzftW > .avatarHint-k7pYop > foreignObject {
+    mask: unset;
+    clip-path: circle(40px at center);
+}
