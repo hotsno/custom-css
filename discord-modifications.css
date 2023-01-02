@@ -184,3 +184,8 @@
     mask: unset !important;
     border-radius: 50%!important;
 }
+
+/* Remove server booster icon in server user list */
+.nameAndDecorators-3ERwy2 > div > .premiumIcon-3PLiGh.icon-1dGlZy {
+    display: none;
+}
