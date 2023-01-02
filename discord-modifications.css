@@ -176,8 +176,8 @@
     background-color: transparent !important;
 }
 
-/* Hide user status in server list menu */
-.avatar-6qzftW > .wrapper-1VLyxH > svg > rect, .status-12NUUC, .mask-1FEkla.svg-2azL_l > svg {
+/* Hide user status in server server user list */
+.avatar-6qzftW > .wrapper-1VLyxH > svg > rect {
     display: none;
 }
 .avatar-6qzftW > .wrapper-1VLyxH > svg > foreignObject{
