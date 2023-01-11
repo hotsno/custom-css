@@ -162,3 +162,13 @@
 .nameAndDecorators-3ERwy2 > div > .premiumIcon-3PLiGh.icon-1dGlZy {
     display: none;
 }
+
+/* Remove user profile button in DMs */
+[aria-label="Show User Profile"] {
+    display: none;
+}
+
+/* Remove Nitro button in DMs */
+div.interactive-1vLZ_I.interactive-iyXY_x.linkButton-2NshQj:has(>[href="/store"]) {
+    display: none;
+}
