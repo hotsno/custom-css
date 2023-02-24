@@ -1,18 +1,6 @@
 /* Collapsible channel list */
 @import url(https://hotsno.github.io/custom-css/discord-collapsible-channel-list.css);
 
-/* Hide Explore and Download buttons on left bar */
-.tutorialContainer-2jwoiB + .listItem-3SmSlK,
-.scroller-3X7KbA > .listItem-3SmSlK + .listItem-3SmSlK {
-    display: none;
-}
-
-/* Get rid of username color */
-.username-h_Y3Us,
-.username-u-ebrn {
-    color: #b7dfee !important;
-}
-
 /* Collapsable users */
 @media screen and (max-width: 1000px) {
     .members-3WRCEx {
@@ -42,6 +30,18 @@
     }
 }
 
+/* Hide Explore and Download buttons on left bar */
+.tutorialContainer-2jwoiB + .listItem-3SmSlK,
+.scroller-3X7KbA > .listItem-3SmSlK + .listItem-3SmSlK {
+    display: none;
+}
+
+/* Uniform username color */
+.username-h_Y3Us,
+.username-u-ebrn {
+    color: #DDD !important;
+}
+
 /* Hide server banner and boost status */
 .flowerStar-2tNFCR,
 .flowerStarContainer-1QeD-L,
@@ -66,25 +66,6 @@
     display: none;
 }
 
-/* Server join/create page */
-.container-x8Y1ix,
-.rowContainer-3t7486,
-.lookFilled-yCfaCM.colorPrimary-2AuQVo {
-    background-color: #28283e !important;
-}
-.container-x8Y1ix:hover,
-.rowContainer-3t7486:hover,
-.lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
-    background-color: #242438 !important;
-}
-.sampleLink-5BWNy9 {
-    color: var(--interactive-normal);
-}
-.input-2g-os5 {
-    background-color: #2a2a40;
-    color: #eee;
-}
-
 /* Move search bar to left */
 .search-39IXmY {
     order: -1;
@@ -96,19 +77,13 @@
     display: none;
 }
 
-/* Hide Gift/Stickers from input box */
-[aria-label="Open sticker picker"],
-[aria-label="Send a gift"] {
-    display: none;
-}
-
-/* Get rid of folder's background color */
+/* Folder background color */
 .folder-241Joy,
 .folderIconWrapper-1oRIZr {
     background-color: transparent !important;
 }
 
-/* Get rid of some top right buttons */
+/* Top right buttons */
 .iconWrapper-2awDjA[aria-label="Help"],
 .iconWrapper-2awDjA[aria-label="Notification Settings"],
 .iconWrapper-2awDjA[aria-label="Hide Member List"] {
@@ -153,22 +128,66 @@
 .avatar-6qzftW > .wrapper-1VLyxH > svg > rect {
     display: none;
 }
-.avatar-6qzftW > .wrapper-1VLyxH > svg > foreignObject{
+.avatar-6qzftW > .wrapper-1VLyxH > svg > foreignObject {
     mask: unset !important;
     border-radius: 50%!important;
 }
 
-/* Remove server booster icon in server user list */
+/* Server booster icon in server user list */
 .nameAndDecorators-3ERwy2 > div > .premiumIcon-3PLiGh.icon-1dGlZy {
     display: none;
 }
 
-/* Remove user profile button in DMs */
+/* User profile button in DMs */
 [aria-label="Show User Profile"] {
     display: none;
 }
 
-/* Remove Nitro button in DMs */
-div.interactive-1vLZ_I.interactive-iyXY_x.linkButton-2NshQj:has(>[href="/store"]) {
+/* GIF, emoji, file pickers */
+.attachWrapper-3slhXI, [aria-label="Open GIF picker"], [aria-label="Select emoji"] {
     display: none;
+}
+
+/* Icons on channels */
+[aria-label="Create Invite"] > .actionIcon-2sw4Sl,
+[aria-label="Edit Channel"] > .actionIcon-2sw4Sl {
+    display: none;
+}
+
+/* Plus button on channel categories/DM */
+.children-3MeUvj, .privateChannelRecipientsInviteButtonIcon-1ObKXK {
+    display: none;
+}
+
+/* "Find or start conversation" in DMs*/
+.privateChannels-oVe7HL > .searchBar-3TnChZ {
+    display: none;
+}
+
+/* Icon next to server name */
+.headerChildren-2qV9P8 {
+    display: none;
+}
+
+/* Nitro tab in DMs */
+[href="/store"] {
+    display: none;
+}
+
+/* Hide mic, deafen, settings until hover */
+.container-YkUktl > .horizontal-1Piu5- {
+    opacity: 0;
+    transition: opacity .1s;
+}
+.container-YkUktl:hover > .horizontal-1Piu5- {
+    opacity: 1;
+    transition: opacity .1s;
+}
+
+/* Hide tag */
+.text-xs-normal-3O7EaX.subtext-2HDqJ7 {
+    display: none;
+}
+.withTagAsButton-OsgQ9L {
+    padding: 4px;
 }
