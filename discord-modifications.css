@@ -125,7 +125,8 @@
 }
 
 /* Hide user status in server server user list */
-.avatar-6qzftW > .wrapper-1VLyxH > svg > rect {
+.avatar-6qzftW > .wrapper-1VLyxH > svg > rect,
+.avatar-6qzftW > .wrapper-1VLyxH > .mask-1FEkla.svg-2azL_l > svg {
     display: none;
 }
 .avatar-6qzftW > .wrapper-1VLyxH > svg > foreignObject {
