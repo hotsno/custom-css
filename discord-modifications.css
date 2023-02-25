@@ -146,8 +146,8 @@
 
 /* GIF, emoji, sticker, gift, file buttons in message box */
 .attachWrapper-3slhXI,
+.expression-picker-chat-input-button > [aria-label="Select emoji"],
 [aria-label="Open GIF picker"],
-[aria-label="Select emoji"],
 [aria-label="Open sticker picker"],
 [aria-label="Send a gift"] {
     display: none;
