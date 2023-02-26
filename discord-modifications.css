@@ -196,3 +196,38 @@
 .withTagAsButton-OsgQ9L {
     padding: 4px;
 }
+
+/* Bottom left username area */
+.container-YkUktl {
+    opacity: 0;
+    transition: opacity .1s;
+}
+
+.container-YkUktl:hover {
+    opacity: 1;
+    transition: opacity .1s;
+}
+
+/* Create new server button */
+.circleIconButton-1VxDrg {
+    opacity: 0;
+}
+
+.circleIconButton-1VxDrg:hover {
+    opacity: 1;
+}
+
+/* Top toolbar icons */
+.toolbar-3_r2xA>[aria-label="Threads"],
+.toolbar-3_r2xA>[aria-label="Pinned Messages"],
+.toolbar-3_r2xA>.recentsIcon-F3eO1o,
+.toolbar-3_r2xA>.search-39IXmY>div>div>.icon-tZMHgY>div>.icon-18rqoe {
+    display: none;
+}
+
+.title-31SJ6t.container-ZMc96U.themed-Hp1KC_:hover>.toolbar-3_r2xA>[aria-label="Threads"],
+.title-31SJ6t.container-ZMc96U.themed-Hp1KC_:hover>.toolbar-3_r2xA>[aria-label="Pinned Messages"],
+.title-31SJ6t.container-ZMc96U.themed-Hp1KC_:hover>.toolbar-3_r2xA>.recentsIcon-F3eO1o,
+.title-31SJ6t.container-ZMc96U.themed-Hp1KC_:hover>.toolbar-3_r2xA>.search-39IXmY>div>div>.icon-tZMHgY>div>.icon-18rqoe {
+    display: block;
+}
