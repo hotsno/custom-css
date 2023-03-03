@@ -38,7 +38,8 @@
 
 /* Uniform username color */
 .username-i5-wv-,
-.username-3_PJ5r {
+.username-3_PJ5r,
+.username-h_Y3Us {
     color: #DDD !important;
 }
 
@@ -126,7 +127,7 @@
 
 /* Hide user status in server server user list */
 .avatar-6qzftW > .wrapper-3Un6-K > svg > rect,
-.avatar-6qzftW > .wrapper-3Un6-K > .mask-1FEkla.svg-2azL_l > svg {
+.avatar-6qzftW > .wrapper-3Un6-K > .mask-1y0tyc.svg-1G_H_8 > svg {
     display: none;
 }
 .avatar-6qzftW > .wrapper-3Un6-K > svg > foreignObject {
