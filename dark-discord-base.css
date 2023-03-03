@@ -1,0 +1,30 @@
+.theme-dark {
+    --background-primary: #111;
+    --background-secondary: #111;
+    --background-secondary-alt: #111;
+    --background-tertiary: #111;
+    --background-accent: #111;
+    --background-floating: #111;
+    --background-nested-floating: #111;
+    --background-mobile-primary: #111;
+    --background-mobile-secondary: #111;
+    --channeltextarea-background: #111;
+    --background-mentioned: rgba(255, 255, 255, 0.1);
+    --background-mentioned-hover: rgba(255, 255, 255, 0.12);
+    --info-warning-foreground: #FFF;
+}
+
+/* Add border to message box */
+.scrollableContainer-15eg7h {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #222;
+}
+
+/* Chat scrollbar */
+.chat-2ZfjoI .scroller-kQBbkU::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+}
+.chat-2ZfjoI .scroller-kQBbkU::-webkit-scrollbar-thumb {
+    background-color: #222 ;
+}
