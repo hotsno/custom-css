@@ -37,9 +37,8 @@
 }
 
 /* Uniform username color */
-.username-i5-wv-,
-.username-3_PJ5r,
-.username-h_Y3Us {
+.username_d30d99,
+.username_d272d6 {
     color: #DDD !important;
 }
 
@@ -181,11 +180,11 @@
 }
 
 /* Hide mic, deafen, settings until hover */
-.container-YkUktl > .horizontal-1Piu5- {
+.container_ca50b9 {
     opacity: 0;
     transition: opacity .1s;
 }
-.container-YkUktl:hover > .horizontal-1Piu5- {
+.container_ca50b9:hover {
     opacity: 1;
     transition: opacity .1s;
 }
